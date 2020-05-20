@@ -130,3 +130,27 @@
     font-size: 12px;
     text-align: center;
   }
+
+
+
+/* Services cards */
+  .serv-card{
+    border: solid #0872B9 2px;
+    padding: 40px 35px;
+    height: 410px;
+    margin-bottom: 5%;
+    }
+
+
+    .about-card-desc{
+      font-size: 15px;
+    }
+
+
+  .useful-links{
+    padding-left: 70px;
+  }
+
+  .white-bg{
+    /* background-color: white !important; */
+  }

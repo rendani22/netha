@@ -587,7 +587,7 @@ a:focus,
 }
 
 .mu-about-right p {
-	font-size: 14px;
+	font-size: 16px;
 }
 
 
@@ -954,7 +954,7 @@ a:focus,
 /*--------------------*/
 
 #mu-counter {
-	background-image: url("assets/images/counter-bg.jpg");
+	/* background-image: url("assets/images/counter-bg.jpg"); */
 	background-size: cover;
 	display: inline;
 	float: left;
@@ -3997,8 +3997,9 @@ a:focus,
   }
   
   .card-header-title{
-	font-size: 20px !important;
+	font-size: 25px !important;
 	font-weight: bold;
+	text-transform: uppercase;
   }
   
   .serv-card-desc{
