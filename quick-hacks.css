@@ -151,6 +151,11 @@
     padding-left: 70px;
   }
 
-  .white-bg{
-    /* background-color: white !important; */
+  .gallery-row{
+    margin-top: 2%;
+  }
+
+  .slider-image{
+    background-size: cover;
+
   }
