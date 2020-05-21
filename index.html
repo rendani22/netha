@@ -68,14 +68,11 @@
 	<!-- Start slider area -->
 	<div id="mu-slider">
 		<div class="col-md-12">
-			<video  autoplay loop>
-				<source src="./assets/video/logo_1.mp4" type="video/mp4">
-				Your browser does not support the video tag.
-			  </video>
+			  <img src="./assets/video/logo-1.gif">
 		</div>
 	</div>
 	<!-- End Slider area -->
-
+	
 	
 	<!-- Start main content -->
 	<main>
@@ -248,45 +245,56 @@
 							</div>
 
 							<div class="row">
-
-									<!-- Start Portfolio Content -->
-									<div class="mu-portfolio-content">
-										<div class="filtr-container">
-
-							                <div class="col-xs-6 col-sm-6 col-md-4 filtr-item" data-category="1">
-							                   <!-- <a class="mu-imglink" href="assets/images/portfolio/img-1.jpg" title="SERVICE"> -->
-								                   	<img class="img-responsive" src="assets/images/MANUFACTURING.png" alt="image">
-								                   	<div class="mu-filter-item-content">
-								                    	<h4 class="mu-filter-item-title">MANUFACTURING</h4>
-								                    	<span class="fa fa-long-arrow-right"></span>
-								                    </div>
-							                   </a>
+								<a href="services.html#card1" class="pointer"></a><div class="col-xs-6 col-sm-6 col-md-4 mobile-no-padding"><a href="services.html#card1" class="pointer">
+									<div class="flip-card">
+										<div class="">
+										<div class="flip-card-front serv-layer" style="background-image:url(assets/images/FABRICATION.png);text-align: center;background-size: cover;">
+											<div class="layer">
+												<p class="service-name text-margin dis-margin">FABRICATION</p> 
 											</div>
-
-							                <div class="col-xs-6 col-sm-6 col-md-4 filtr-item" data-category="2">
-							                    <!-- <a class="mu-imglink" href="assets/images/portfolio/img-2.jpg" title="SERVICE"> -->
-							                    	<img class="img-responsive" src="assets/images/FABRICATION.png" alt="image">
-								                    <div class="mu-filter-item-content">
-								                    	<h4 class="mu-filter-item-title">FABRICATION</h4>
-								                    	<span class="fa fa-long-arrow-right"></span>
-								                    </div>
-							                    </a>
-							                </div>
-
-							                <div class="col-xs-6 col-sm-6 col-md-4 filtr-item" data-category="3">
-							                    <!-- <a class="mu-imglink" href="assets/images/portfolio/img-3.jpg" title="E-SERVICE"> -->
-							                    	<img class="img-responsive" src="assets/images/FIELD.JPG" alt="image">
-								                    <div class="mu-filter-item-content">
-								                    	<h4 class="mu-filter-item-title">FIELD SERVICES</h4>
-								                    	<span class="fa fa-long-arrow-right"></span>
-								                    </div>
-							                    </a>
-							                </div>
-
-							            </div>
+										</div>
+										<div class="flip-card-back">
+											<p class="card-header-title">DISTRIBUTION</p> 
+											<p class="serv-card-desc">From farm, factory to warehouse and retail stores, we offer tailored distribution solutions that fit your business requirements</p> 
+										</div>
+										</div>
 									</div>
-									<!-- End Portfolio Content -->
+								</a>
+									</div>
+			
+								<div class="col-xs-6 col-sm-6 col-md-4 mobile-no-padding">
+										<div class="flip-card">
+											<div class="">
+											<div class="flip-card-front" style="background-image:url(assets/images/MANUFACTURING.png);text-align: center;background-size: cover;">
+												<div class="layer">
+													<p class="service-name text-margin dis-margin">MANUFACTURING</p> 
+												</div> 
+											</div>
+											<div class="flip-card-back">
+												<p class="card-header-title">LOGISTICS</p> 
+												<p class="serv-card-desc">We offer a range of vehicles that can accommodate a single parcel that requires constant cooling to bulk projects.</p> 
+											</div>
+											</div>
+										</div>
+									</a>
 								</div>
+			
+								<div class="col-xs-6 col-sm-6 col-md-4 mobile-no-padding">
+									<a href="services.html#card3" class="pointer">
+										<div class="flip-card">
+											<div class="">
+											<div class="flip-card-front" style="background-image:url(assets/images/FIELD.JPG);text-align: center;background-size: cover;">
+												<div class="layer">
+													<p class="service-name text-margin fleet-margin">FIELD SERVICE</p> 
+												</div>
+											</div>
+											</div>
+										</div>
+									</a>
+								</div>
+			
+			
+							</div>
 							
 						</div>
 					</div>
@@ -379,7 +387,7 @@
 		<!-- End Counter -->
 
 		<!-- Start Pricing Table -->
-		<section id="mu-pricing">
+		<!-- <section id="mu-pricing"> -->
 			<!-- <div class="container">
 				<div class="row">
 					<div class="col-md-12">
@@ -654,6 +662,19 @@
 	    });
 
 	</script>
-    
+	
+	<script>
+		var isChrome = !!window.chrome; 
+		var isIE = /*@cc_on!@*/false;
+
+			console.log(isIE);
+		if( isChrome ) {
+			$("#videoId").replaceWith($('<video id="videoId" width="100%" autoplay loop><source src="./assets/video/logo_1.webm" type="video/webm"></video>'));
+			}
+
+			if( isIE ) {
+			$("#videoId").replaceWith($('<video id="videoId" src="./assets/video/logo_1.mp4" />'));
+			} 
+	</script>
   </body>
 </html>

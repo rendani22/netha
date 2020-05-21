@@ -38,6 +38,16 @@ Version: 1.0
 /* BASIC TYPOGRAPHY */
 /*--------------------*/
 
+.layer {
+    background-color: rgba(000, 000, 000, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
 body,
 html {
 	overflow-x:hidden;
@@ -976,7 +986,7 @@ a:focus,
 .mu-counter-area {
 	display: inline;
 	float: left;
-	padding: 100px 0;
+	padding: 20px 0;
 	width: 100%;
 }
 
