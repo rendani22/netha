@@ -37,7 +37,9 @@ Version: 1.0
 /*--------------------*/
 /* BASIC TYPOGRAPHY */
 /*--------------------*/
-
+.side{
+	padding-left: 10%;
+}
 .layer {
     background-color: rgba(000, 000, 000, 0.4);
     position: absolute;
@@ -47,6 +49,12 @@ Version: 1.0
     height: 100%;
 }
 
+#verticle-line {
+	width: 6px;
+    min-height: 54px;
+    background: #0872b9;
+    position: absolute;
+  }
 
 body,
 html {
