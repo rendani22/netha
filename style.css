@@ -546,7 +546,7 @@ a:focus,
 	display: inline;
 	float: left;
 	width: 100%;
-	font-weight: 100;
+	/* font-weight: 100; */
 	color: #fbfcfc;
 }
 
@@ -3880,8 +3880,9 @@ a:focus,
   .about-card{
 	border: solid #0872B9 2px;
 	padding: 40px 35px;
-	height: 510px;
+	height: 470px;
 	margin-bottom: 5%;
+	font-size: 15px;
   }
   
 

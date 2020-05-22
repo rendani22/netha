@@ -41,3 +41,15 @@
     color: #666666;
     font-weight: 300;
 }
+
+ /* -------------------- about section ----------------- */
+
+ .white-bg{
+    background-color: white !important;
+    color: #666666 !important;
+ }
+
+ .card-header-title{
+    font-weight: 700;
+    font-size: 18px !important;
+ }
