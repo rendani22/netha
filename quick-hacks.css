@@ -20,17 +20,8 @@
     width: 60px;
 }
 
-.front{
-    transform: perspective(600) rotate(180deg);
-}
-
-.back{
-
-}
-
-.card{
-    transform-style: preserve-3d;
-    transition: all 0.5s ease;
+.text-justify{
+  text-align: justify;
 }
 
 .smaller-text, .smaller-text:hover{

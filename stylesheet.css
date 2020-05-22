@@ -1,0 +1,43 @@
+/* -------------- home service cards --------------- */
+.home-card{
+    border: solid #0872B9 2px;
+    border-radius: 8px;
+    padding: 30px;
+    width: 100% !important;
+}
+
+.home-card-icon{
+    width: 100px;
+    height: 100px;
+    background-color: #0872B9;
+    margin: auto;
+}
+
+.home-card-title-container{
+    text-align: center;
+    margin: auto;
+    margin-top: 5% !important;
+}
+
+.home-card-title{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    /* color: #0872B9; */
+}
+
+.home-card-title-line{
+    width: 30%;
+    background-color: #0872B9;
+    height: 2px;
+    margin-top: -3%;
+}
+
+.home-card-desc-container{
+    width: 90%;
+    text-align: justify;
+    margin: auto;
+    margin-top: 7% !important;
+    color: #666666;
+    font-weight: 300;
+}
