@@ -54,3 +54,54 @@
     font-weight: 700;
     font-size: 18px !important;
  }
+
+
+ /* -------------------- fabrication section ----------------- */
+
+ .serv-fab-img-container{
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    background-color: #666666;
+ }
+
+ .main-title-line{
+    width: 8%;
+    height: 4px;
+    background-color: #0872B9;
+ }
+
+ #fab-image1{
+    background-image: url('./assets/images/FABRICATION.png');
+ }
+
+ #fab-image2{
+    background-image: url('./assets/images/FABRICATION.png');
+}
+
+#fab-image3{
+    background-image: url('./assets/images/FABRICATION.png');
+}
+
+#fab-image4{
+    background-image: url('./assets/images/FABRICATION.png');
+}
+
+/* -------------------- field services section ----------------- */
+
+#field-image1{
+    background-image: url('./assets/images/FIELD.JPG');
+}
+
+#field-image2{
+    background-image: url('./assets/images/FIELD.JPG');
+}
+
+#field-image3{
+    background-image: url('./assets/images/FIELD.JPG');
+}
+
+#field-image4{
+    background-image: url('./assets/images/FIELD.JPG');
+}
+
