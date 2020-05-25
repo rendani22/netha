@@ -1664,10 +1664,11 @@ a:focus,
 .mu-page-header-area {
 	display: inline;
 	float: left;
-	padding: 150px 0;
+	/* padding: 150px 0; */
 	width: 100%;
 	position: relative;
 	z-index: 20;
+	padding-top: 150px;
 }
 
 .mu-page-header-title {
@@ -2665,7 +2666,7 @@ a:focus,
 
 .mu-contact-form .form-group input {
 	background: transparent;
-	border-radius: 20px;
+	border-radius: 8px;
 	color: #0091ea;
 	font-size: 14px;
 	border: 1px #cccccc;
