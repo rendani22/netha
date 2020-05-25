@@ -960,7 +960,7 @@ a:focus,
 }
 
 .mu-imglink {
-	background-color: transparent;
+	background-color: black;
 }
 
 .filtr-item h4 {
@@ -3937,7 +3937,7 @@ a:focus,
   
 
   /* pop message */
-  
+/*   
   .pop-up-container{
 	width: 50%;
 	position: absolute;
@@ -3947,16 +3947,16 @@ a:focus,
 	padding: 50px;
 	color: #fff;
 	transition: all 50000s ease;
-  }
+  } */
   
-  .cancel{
+  /* .cancel{
 	position: relative;
 	margin-right: -20px;
 	margin-top: -30px;
 	float: right;
 	color: #000;
 	opacity: .5;  
-  }
+  } */
   
   .hide{
 	display: none !important;
