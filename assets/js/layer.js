@@ -2,9 +2,10 @@
 
 //--------------------1-----------------------------------------
 
-$('#image-card1').mouseover(function(){
+$('.testh').mouseover(function(){
     console.log("hi there");
-    $('.card-layer1').addClass('card-show');
+    $(this).addClass('card-show');
+    console.log(this);
     $('.layer-content-container1').addClass('card-show');
 })
 
@@ -15,42 +16,42 @@ $('#image-card1').mouseleave(function(){
 
 //---------------------2----------------------------------------
 
-$('#image-card2').mouseover(function(){
-    console.log("hi there");
-    $('.card-layer2').addClass('card-show');
-    $('.layer-content-container2').addClass('card-show');
-})
+// $('#image-card2').mouseover(function(){
+//     console.log("hi there");
+//     $('.card-layer2').addClass('card-show');
+//     $('.layer-content-container2').addClass('card-show');
+// })
 
-$('#image-card2').mouseleave(function(){
-    $('.card-layer2').removeClass('card-show');
-    $('.layer-content-container2').removeClass('card-show');
-})
+// $('#image-card2').mouseleave(function(){
+//     $('.card-layer2').removeClass('card-show');
+//     $('.layer-content-container2').removeClass('card-show');
+// })
 
 //----------------------3---------------------------------------
 
-$('#image-card3').mouseover(function(){
-    console.log("hi there");
-    $('.card-layer3').addClass('card-show');
-    $('.layer-content-container3').addClass('card-show');
-})
+// $('#image-card3').mouseover(function(){
+//     console.log("hi there");
+//     $('.card-layer3').addClass('card-show');
+//     $('.layer-content-container3').addClass('card-show');
+// })
 
-$('#image-card3').mouseleave(function(){
-    $('.card-layer3').removeClass('card-show');
-    $('.layer-content-container3').removeClass('card-show');
-})
+// $('#image-card3').mouseleave(function(){
+//     $('.card-layer3').removeClass('card-show');
+//     $('.layer-content-container3').removeClass('card-show');
+// })
 
 //----------------------4---------------------------------------
 
-$('#image-card4').mouseover(function(){
-    console.log("hi there");
-    $('.card-layer4').addClass('card-show');
-    $('.layer-content-container4').addClass('card-show');
-})
+// $('#image-card4').mouseover(function(){
+//     console.log("hi there");
+//     $('.card-layer4').addClass('card-show');
+//     $('.layer-content-container4').addClass('card-show');
+// })
 
-$('#image-card4').mouseleave(function(){
-    $('.card-layer4').removeClass('card-show');
-    $('.layer-content-container4').removeClass('card-show');
-})
+// $('#image-card4').mouseleave(function(){
+//     $('.card-layer4').removeClass('card-show');
+//     $('.layer-content-container4').removeClass('card-show');
+// })
 
 //----------------------5---------------------------------------
 
