@@ -32,59 +32,8 @@ Version: 1.0
 #404 ERROR PAGE
 #RESPONSIVE STYLE
 ==========*/
-.gallery {
-	-webkit-column-count: 3;
-	-moz-column-count: 3;
-	column-count: 3;
-	-webkit-column-width: 33%;
-	-moz-column-width: 33%;
-	column-width: 33%; }
-	.gallery .pics {
-	-webkit-transition: all 350ms ease;
-	transition: all 350ms ease; }
-	.gallery .animation {
-	-webkit-transform: scale(1);
-	-ms-transform: scale(1);
-	transform: scale(1); }
-	
-	@media (max-width: 450px) {
-	.gallery {
-	-webkit-column-count: 1;
-	-moz-column-count: 1;
-	column-count: 1;
-	-webkit-column-width: 100%;
-	-moz-column-width: 100%;
-	column-width: 100%;
-	}
-	}
 
 
-#myBtnContainer .btn {
-	border: none;
-	outline: none;
-	padding: 12px 16px;
-	background-color: white;
-	cursor: pointer;
-  }
-
-  .butClass{
-	display: inline;
-    float: left;
-    text-align: center;
-    /* width: 100%; */
-    margin-bottom: 25px;
-  }
-
-   .gallery-img{
-	text-align: center;
-	display: none;
-  }
-
-  .show {
-	display: block;
-  }
-
- 
 /*--------------------*/
 /* BASIC TYPOGRAPHY */
 /*--------------------*/
@@ -371,8 +320,8 @@ a:focus,
 .mu-send-msg-btn:focus,
 .mu-register-btn:hover,
 .mu-register-btn:focus {
-	border: 1px solid #0091ea;
-	background-color: #0091ea;
+	border: 1px solid #0872B9;
+	background-color: #0872B9;
 }
 
 .mu-clients-slider .slick-prev, 
@@ -505,8 +454,6 @@ a:focus,
 	display: inline;
 	float: left;
 	width: 100%;
-	height: 70vh;
-	background-color: #fcfcff;
 }
 
 .mu-slide {
@@ -514,7 +461,7 @@ a:focus,
 	float: left;
 	width: 100%;
 	background-color: #000 !important;
-	/* height: 70vh; */
+	/* height: 600px; */
 	color: #fff;
 }
 
@@ -593,18 +540,16 @@ a:focus,
 
 
 #mu-about {
-	background-color: #4391C6;
+	background-color: #fff;
 	display: inline;
 	float: left;
 	width: 100%;
-	/* font-weight: 100; */
-	color: #fbfcfc;
 }
 
 .mu-about-area {
 	display: inline;
 	float: left;
-	padding: 80px 0;
+	padding: 100px 0;
 	width: 100%;
 }
 
@@ -613,19 +558,15 @@ a:focus,
 	float: left;
 	text-align: center;
 	width: 100%;
-	margin-bottom: 25px;
+	margin-bottom: 35px;
 	/* padding: 0 25%; */
 }
 
 .mu-title h2 {
-	color: #323232;
+	color: #0872B9;
 	font-size: 30px;
 	text-transform: uppercase;
 	margin-bottom: 15px;
-}
-
-.mu-title p {
-
 }
 
 .mu-about-left {
@@ -1131,6 +1072,7 @@ a:focus,
 
 .mu-title-content {
 	padding: 0 10%;
+	font-size: 22px
 }
 
 .mu-pricing-content {
@@ -1524,9 +1466,9 @@ a:focus,
 
 #mu-google-map {
 	display: inline;
-    float: left;
-    width: 50%;
-    margin-bottom: -5px;
+	float: left;
+	width: 100%;
+	margin-bottom: -7px;
 }
 
 #mu-google-map iframe {
@@ -1697,17 +1639,18 @@ a:focus,
 
 
 #mu-page-header {
-	background-image: url(assets/images/page-header-bg.jpg);
+	/* background-image: url(assets/images/page-header-bg.jpg); */
 	background-position: center center;
 	background-size: cover;
 	display: inline;
 	float: left;
 	position: relative;
 	width: 100%;
+	height: 250px;
 }
 
 #mu-page-header::before {
-	background-color: #ebebeb;
+	background-color: #ffffff;
 	bottom: 0;
 	content: '';
 	left: 0;
@@ -2670,8 +2613,10 @@ a:focus,
 #mu-contact {
 	background-color: #fff;
 	display: inline;
-	float: left;
+	/* float: left; */
 	width: 100%;
+	padding-bottom: 0px;
+	padding-top: 0px;
 }
 
 .mu-contact-area {
@@ -2684,15 +2629,23 @@ a:focus,
 
 .mu-contact-content {
 	display: inline;
+	/* float: left;  */
 	width: 100%;
-	padding: 0 28%;
+	/* padding: 0 28%; */
+	
 }
 
 .mu-contact-form-area {
 	display: inline;
 	float: left;
 	width: 100%;
+	padding-top: 0px;
 }
+#mu-google-map{
+	display: inline;
+	float: right;
+	width: 100%;
+} 
 
 .mu-contact-form {
 	text-align: center;
@@ -2712,11 +2665,11 @@ a:focus,
 
 .mu-contact-form .form-group input {
 	background: transparent;
-	border-radius: 0;
-	color: #333;
+	border-radius: 20px;
+	color: #0091ea;
 	font-size: 14px;
 	border: 1px #cccccc;
-	border-style: none none solid none;
+	border-style: solid solid solid solid;
 	height: 45px;
 	padding: 0 25px;
 	margin-bottom: 24px;
@@ -2728,9 +2681,9 @@ a:focus,
 .mu-contact-form .form-group textarea {
 	background: transparent;
 	border: 1px #cccccc;
-	border-style: none none solid none;
-	border-radius: 0;
-	color: #333;
+	border-style: solid solid solid solid;
+	border-radius: 5px;
+	color: #0091ea;
 	font-size: 14px;
 	padding: 10px;
 	height: 100px;
@@ -2828,7 +2781,7 @@ a:focus,
 
 .mu-error-area .mu-title p {
 	font-size: 14px;
-	color: #323232;
+	color: #fff;
 }
 
 .mu-error-content {
@@ -3779,8 +3732,11 @@ a:focus,
 }
 
 
+
+
+
 .white{
-	color: #fbfcfc !important;
+	color: #fff !important;
   }
   
   .float-right{
@@ -3830,6 +3786,7 @@ a:focus,
 	position: fixed;
 	z-index: 30;
 	display: block !important;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
   
   .margin-top{
@@ -3910,32 +3867,232 @@ a:focus,
 	list-style-position: inside !important;
   }
   
+  .toaster{
+	/* height: 100px; */
+	width: 100%;
+	color: #fff;
+	background-color: #0872B9;
+	padding-bottom: 1px;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 17px;
+	padding-left: 20px;
+	padding-right: 20px;
+  }
+  
+  .toaster p{
+	/* padding: 0 !important; */
+  }
+  
+  /* button hacks */
+  .smaller-btn{
+	font-size: 18px !important;
+	padding: 13px 45px !important;
+  }
+  
+  /* Services Flip Cards */
+  .services-page{
+	margin: 5% 0 !important;
+  }
+  
+  .card-holder{
+	width: 100%;
+	margin: 3% 0;
+	/* display: flex; */
+	/* justify-content: space-between; */
+  }
+  
+  .flip-card {
+	background-color: transparent;
+	width: 250px;
+	height: 220px;
+	perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: transform 0.6s;
+	transform-style: preserve-3d;
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+	transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+	color: #bbb;
+	/* opacity: 0.8; */
+  }
+  
+  .flip-card-back {
+	display: block !important;
+	background-color: #fff !important;
+	color: #0872B9;
+	transform: rotateY(180deg);
+	padding: 30px 10px;
+	border: solid #0872B9 2px;
+	z-index: 100000;
+  }
+  
+  .layer {
+	background-color: rgba(000, 000, 000, 0.4);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  }
+  
+  .back-layer{
+	background-color: white !important;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  }
+  
+  /* Services page */
+  .services-page{
+	color: #666666 !important;
+  }
+  
+  .service-margin-top{
+	margin-top: 5%;
+  }
+  
+  .service-name{
+	position: absolute;
+	color: #fff;
+  }
+  
+  .services-img-holder{
+	height: 250px;
+	opacity: 0.85;
+  }
+  
+  #distribution-card{
+	text-align: center;
+	background: url('./assets/images/distribution.jpg');
+	background-size: cover;
+  }
+  
+  .distribution-margin-top{
+	margin-top: 8%;
+  }
+  
   .card-shadow{
 	-webkit-box-shadow: 0px 0px 8px 3px rgba(181,179,181,1);
 	-moz-box-shadow: 0px 0px 8px 3px rgba(181,179,181,1);
 	box-shadow: 0px 0px 8px 3px rgba(181,179,181,1);
   }
   
-
+  #logistics-card{
+	text-align: center;
+	background: url('./assets/images/logistics.jpg');
+	background-size: cover;
+  }
+  
+  .logistics-margin-top{
+	margin-top: 18%;
+  }
+  
+  #fleet-card{
+	text-align: center;
+	background: url('./assets/images/fleet.jpg');
+	background-size: cover;
+  }
+  
+  #dist-card{
+	text-align: center;
+	background: url('./assets/images/warehouse.jpg');
+	background-size: cover;
+  }
+  
+  .card-header-title{
+	font-size: 25px !important;
+	font-weight: bold;
+	text-transform: uppercase;
+  }
+  
+  .serv-card-desc{
+	font-size: 14px;
+  }
+  
+  .log-margin{
+	margin: 40% 35%;
+  }
+  
+  .dis-margin{
+	margin: 40% 30%;
+  }
+  
+  .fleet-margin{
+	margin: 40% 15%;
+  }
+  
+  .ware-margin{
+	margin: 40% 12%;
+  }
+  
+  .pre{
+	background-color: #fff !important;
+	border: 0 !important;
+	padding: 0 !important;
+	color: #666666 !important;
+	font-size: 15px !important;
+	border-radius: 0 !important;
+	margin: 0 !important;
+	font-weight: normal !important;
+	font-family: 'Raleway', sans-serif;
+  }
+  
+  .mar{
+	margin-top: -2% !important;
+  }
   
   .footer-contact-link{
+	/* line-height: 1.5 !important; */
 	margin-top: -5px !important;
 	margin-bottom: 4px !important;
 	font-size: 14px !important;
   }
   
+  /* images */
+  .landing-image{
+	height: 90vh;
+	width: 100%;
+  }
+  
+  .mobile-landing-container{
+	display: none;
+  }
   
   /* about cards */
   
   .about-card{
 	border: solid #0872B9 2px;
 	padding: 40px 35px;
-	height: 470px;
+	height: 510px;
 	margin-bottom: 5%;
-	font-size: 15px;
   }
   
-
+  .about-team-img{
+	width: 60% !important;
+  }
+  
   /* pop message */
 /*   
   .pop-up-container{
@@ -3962,4 +4119,32 @@ a:focus,
 	display: none !important;
   }
   
+  .pop-up-left{
+	display: flex;
+	justify-content: center;
+	padding-top: 30px;
+  }
+  
+  .pop-up-icon{
+	width: 170px;
+	height: 150px;
+	opacity: 0.8;
+  }
+  
+  .pop-up-message-bottom{
+	font-size: 13px;
+  }
+  
+  .pop-up-content{
+	width: 90%;
+	margin: auto;
+	text-align: justify;
+  }
+  
+  /* contact page */
+  
+  .select{
+	background-color: #fff;
+	box-shadow: none;
+  }
   

@@ -66,17 +66,24 @@
 <!-- End Header -->	
 
 	<!-- Start Page Header area -->
-	<!-- <div id="mu-page-header">
+	<div id="mu-page-header">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
 					<div class="mu-page-header-area">
-						<h1 class="mu-page-header-title">Contact us</h1>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="mu-title">
+									<h2>Contact Us</h2>
+									<p>There are simpler ways to get in touch with us</p>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div> -->
+	</div>
 	<!-- End Page Header area -->
 
 	
@@ -89,19 +96,19 @@
 					<div class="col-md-12">
 						<div class="mu-contact-area">
 							<!-- Title -->
-							<div class="row">
+							<!-- <div class="row">
 								<div class="col-md-12">
 									<div class="mu-title">
-										<h2>Say Hello!</h2>
-										<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa cum sociis.</p>
+										<h2>Contact Us</h2>
+										<p>There are simpler ways to get in touch with us</p>
 									</div>
 								</div>
-							</div>
+							</div> -->
 								<!-- Start Contact Content -->
 							<div class="mu-contact-content">
 								<div class="row">
 
-									<div class="col-md-12">
+									<div class="col-md-6">
 										<div class="mu-contact-form-area">
 											<div id="form-messages"></div>
 											<form id="ajax-contact" method="post" action="mailer.php" class="mu-contact-form">
@@ -117,8 +124,8 @@
 												</div>    
 
 												<div class="form-group"> 
-													<span class="fa fa-folder-open-o mu-contact-icon"></span>                
-													<input type="text" class="form-control" placeholder="Your Subject" id="subject" name="subject" required>
+													<span class="fa fa-phone mu-contact-icon"></span>                
+													<input type="text" class="form-control" placeholder="Contact Number" id="subject" name="subject" required>
 												</div>
 
 												<div class="form-group">
@@ -129,10 +136,15 @@
 								        	</form>
 										</div>
 									</div>
-
+											<!-- Google map -->
+											<div class="col-md-6">
+											<div id="mu-google-map">
+												<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.3976951333507!2d28.17729073037315!3d-26.15117450575195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9513c10058d979%3A0x8380f68680b264e1!2s156%20Kuschke%20St%2C%20Meadowdale%2C%20Germiston%2C%201614!5e0!3m2!1sen!2sza!4v1590046757814!5m2!1sen!2sza" width="850" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+											</div>
+										</div>
 								</div>
 							</div>
-							<!-- End Contact Content -->
+						<!-- End Contact Content -->
 						</div>
 					</div>
 				</div>
@@ -141,9 +153,9 @@
 		<!-- End Contact -->
 
 		<!-- Google map -->
-		<div id="mu-google-map">
+		<!-- <div id="mu-google-map">
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.3976951333507!2d28.17729073037315!3d-26.15117450575195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9513c10058d979%3A0x8380f68680b264e1!2s156%20Kuschke%20St%2C%20Meadowdale%2C%20Germiston%2C%201614!5e0!3m2!1sen!2sza!4v1590046757814!5m2!1sen!2sza" width="850" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-		</div>
+		</div> -->
 
 
 	</main>
@@ -152,80 +164,87 @@
 			
 			
 	<!-- Start footer -->
-	<footer id="mu-footer">
-		<div class="mu-footer-top">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4 white-bg">
-						<div class="mu-single-footer">
-							<img class="mu-footer-logo" src="assets/images/logo.png" alt="logo">
-							<!-- <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus. </p> -->
-							<div class="mu-social-media">
-								<a href="#"><i class="fa fa-facebook"></i></a>
-								<a class="mu-twitter" href="#"><i class="fa fa-twitter"></i></a>
-								<!-- <a class="mu-pinterest" href="#"><i class="fa fa-pinterest-p"></i></a> -->
-								<a class="mu-google-plus" href="#"><i class="fa fa-google-plus"></i></a>
-								<!-- <a class="mu-youtube" href="#"><i class="fa fa-youtube"></i></a> -->
+<footer id="mu-footer">
+	<div class="mu-footer-top">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 white-bg">
+					<div class="mu-single-footer">
+						<img class="mu-footer-logo" src="assets/images/Netha-logo.png" alt="logo">
+						<!-- <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus. </p> -->
+						<div class="mu-social-media">
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a class="mu-twitter" href="#"><i class="fa fa-twitter"></i></a>
+							<!-- <a class="mu-pinterest" href="#"><i class="fa fa-pinterest-p"></i></a> -->
+							<a class="mu-google-plus" href="#"><i class="fa fa-instagram"></i></a>
+							<!-- <a class="mu-youtube" href="#"><i class="fa fa-youtube"></i></a> -->
+							<a class="mu-fa-linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="mu-single-footer center">
+						<h3>Useful link</h3>
+						<ul class="mu-useful-links left-align">
+							<li class="nav-item"><a href="index.html">Home</a></li>
+							<li class="nav-item"><a href="about-us.html">About us</a></li>
+							<li class="nav-item active"><a href="services.html">Services</a></li>
+							<li class="nav-item "><a href="gallery.html">Gallery</a></li>
+							<li class="nav-item"><a href="contact.html">Contact us</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="mu-single-footer">
+						<h3>Contact Information</h3>
+						<ul class="list-unstyled">
+						  <li class="media">
+							<span class="fa fa-home"></span>
+							<div class="media-body">
+								<p>156 Kuschke st, Meadowdale, Germiston 1614</p>
 							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="mu-single-footer center">
-							<h3>Useful link</h3>
-							<ul class="mu-useful-links left-align">
-								<li class="nav-item"><a href="index.html">Home</a></li>
-								<li class="nav-item"><a href="about-us.html">About us</a></li>
-								<li class="nav-item active"><a href="services.html">Services</a></li>
-								<li class="nav-item "><a href="gallery.html">Gallery</a></li>
-								<li class="nav-item"><a href="contact.html">Contact us</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="mu-single-footer">
-							<h3>Contact Information</h3>
-							<ul class="list-unstyled">
-							  <li class="media">
-							    <span class="fa fa-home"></span>
-							    <div class="media-body">
-							    	<p>156 Kuschke st, Meadowdale, Germiston 1614</p>
-							    </div>
-							  </li>
-							  <li class="media">
-							    <span class="fa fa-phone"></span>
-							    <div class="media-body">
-									<p>T: 011 044 9015</p>
-									<p>C: 081 458 8798</p>
-									<p>F: 086 541 8615</p>
-							    </div>
-							  </li>
-							  <li class="media">
-							    <span class="fa fa-envelope"></span>
-							    <div class="media-body">
-							     <p>gumeden@netha-tech.co.za</p>
-							     <!-- <p>help.behero@gmail.com</p> -->
-							    </div>
-							  </li>
-							</ul>
-						</div>
+						  </li>
+						  <li class="media">
+							<span class="fa fa-home"></span>
+							<div class="media-body">
+								<p>22E Celsius Street, Middleburg</p>
+							</div>
+						  </li>
+						  <li class="media">
+							<span class="fa fa-phone"></span>
+							<div class="media-body">
+								<p>C: 081 458 8798</p>
+								<p>T: 011 443 6837</p>
+								<p>F: 086 541 8615</p>
+							</div>
+						  </li>
+						  <li class="media">
+							<span class="fa fa-envelope"></span>
+							<div class="media-body">
+							 <p>sales@netha-tec.co.za</p>
+							 <!-- <p>help.behero@gmail.com</p> -->
+							</div>
+						  </li>
+						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="mu-footer-bottom">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="mu-footer-bottom-area">
-							<p class="mu-copy-right"><i class="fa fa-paint-brush"></i> Designed by<a rel="nofollow" href="https://www.lebonemedia.co.za/"> Lebone Media</a>.</p>
-						</div>
+	</div>
+	<div class="mu-footer-bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="mu-footer-bottom-area">
+						<p class="mu-copy-right"></i> Designed by<a rel="nofollow" href="https://www.lebonemedia.co.za/"> Lebone Media</a>.</p>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
 
-	</footer>
-	<!-- End footer -->
+</footer>
+<!-- End footer -->
 
 	<!-- JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
