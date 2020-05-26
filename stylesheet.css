@@ -70,6 +70,7 @@
     width: 8%;
     height: 4px;
     background-color: #0872B9;
+    margin-top: -0.5%;
  }
 
  #fab-image1{
@@ -228,14 +229,17 @@
 
 .pop-up-containers{
     background-color: black;
-    opacity: 0.4;
+    opacity: 0.35;
     width: 100%;
     height: 100vh !important;
-    top: 0%;
-    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
     left: 0 !important;
     display: none;
     z-index: 200;
+    overflow: hidden;
 }
 .pop-up{
     position: relative;
@@ -263,7 +267,7 @@
 .man-card-title-line{
     width: 7%;
     background-color: #0872B9;
-    height: 2px;
+    height: 3px;
     margin-top: -1.3%;
     border: none;
 }
