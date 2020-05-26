@@ -154,7 +154,6 @@
     margin-top: 5% !important;
     width: 100%;
     margin: auto;
-    text-align: justify;
     opacity: 0.9;
 }
 
@@ -173,35 +172,51 @@
 }
 
 #man-img1{
-    background-image: url('./assets/images/hydrocyclone.JPG');  
+    background-image: url('./assets/images/HYDRO-CYCLONES/PU\ 6.JPG');  
+    background-size: cover;
+    opacity: 0.9;
 }
 
 #man-img2{
-    background-image: url('./assets/images/hydrocyclone.JPG');
+    background-image: url('./assets/images/TRANSFER-CHUTES/trans1.JPG');
+    background-size: cover;
+    opacity: 0.9;
 }
 
 #man-img3{
-    background-image: url('./assets/images/hydrocyclone.JPG');
+    background-image: url('./assets/images/INTER-STAGE-SCREENS/Inter-stage-10.JPG');
+    background-size: cover;
+    opacity: 0.9
 }
 
 #man-img4{
-    background-image: url('./assets/images/hydrocyclone.JPG');
+    background-image: url('./assets/images/CONVEYOR-IDLERS/Idler5.JPG');
+    background-size: cover;
+    opacity: 0.9
 }
 
 #man-img5{
-    background-image: url('./assets/images/hydrocyclone.JPG');
+    background-image: url('./assets/images/SCREEN-PANELS/MW\ 1.jpg');
+    background-size: cover;
+    opacity: 0.9
 }
 
 #man-img6{
-    background-image: url('./assets/images/hydrocyclone.JPG');
+    background-image: url('./assets/images/SPRAY-NOZZLES/45fee03c-a2ed-41ba-874a-2c11a250fdea.png');
+    background-size: cover;
+    opacity: 0.9
 }
 
 #man-img7{
-    background-image: url('./assets/images/hydrocyclone.JPG');
+    background-image: url('./assets/images/HDP-PIPES/39f3ae7e-0812-4b16-8cc2-ebb4133f7371.JPG');
+    background-size: cover;
+    opacity: 0.9
 }
 
 #man-img8{
-    background-image: url('./assets/images/hydrocyclone.JPG');
+    background-image: url('./assets/images/POLYURETHANE-LINERS/PL3.png');
+    background-size: cover;
+    opacity: 0.9
 }
 
 /* -------------------- manufacturing pop-up section ----------------- */
@@ -213,7 +228,7 @@
 
 .pop-up-containers{
     background-color: black;
-    opacity: 0.8;
+    opacity: 0.4;
     width: 100%;
     height: 100vh !important;
     top: 0%;
@@ -225,13 +240,15 @@
 .pop-up{
     position: relative;
     width: 70%;
-    /* height: 400px; */
     background-color: #fbfcfc;
     margin: auto;
     z-index: 250;
     display: none;
     padding: 30px;
-    /* margin-top: 5%; */
+    margin-top: -22%;
+    border-top: 5px solid #4391C6;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .cancels{
@@ -271,7 +288,229 @@
 }
 
 .pop-up-sub-desc-par{
-    /* padding-left: 20px; */
     font-size: 15px;
-    /* width: 50%; */
+}
+
+.pop-up-image-container{
+    width: 95%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.man-pop-up-image{
+    height: 150px;
+    width: 100%;
+}
+
+#trans, #inter, #conveyor, #screen, #spray, #pipe, #poly{
+    margin-top: -10%;
+    padding-bottom: 50px;
+}
+
+/* hydro cyclone pop-up images */
+
+#hydro1{
+    background-image: url('./assets/images/HYDRO-CYCLONES/PU\ 1.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#hydro2{
+    background-image: url('./assets/images/HYDRO-CYCLONES/SCRC\ 3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#hydro3{
+    background-image: url('./assets/images/HYDRO-CYCLONES/Cast\ Iron\ 1.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#hydro4{
+    background-image: url('./assets/images/HYDRO-CYCLONES/Cast\ Iron\ 17.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* transfer chute pop-up images */
+
+#trans1{
+    background-image: url('./assets/images/TRANSFER-CHUTES/trans1.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#trans2{
+    background-image: url('./assets/images/TRANSFER-CHUTES/trans1.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#trans3{
+    background-image: url('./assets/images/TRANSFER-CHUTES/trans1.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#trans4{
+    background-image: url('./assets/images/TRANSFER-CHUTES/trans1.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* inter-stage screens pop-up images */
+
+#inter1{
+    background-image: url('./assets/images/INTER-STAGE-SCREENS/Inter-stage-11.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#inter2{
+    background-image: url('./assets/images/INTER-STAGE-SCREENS/Inter-stage-7.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#inter3{
+    background-image: url('./assets/images/INTER-STAGE-SCREENS/Inter-stage-9.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#inter4{
+    background-image: url('./assets/images/INTER-STAGE-SCREENS/Inter-stage-4.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* conveyor idlers pop-up images */
+
+#conveyor1{
+    background-image: url('./assets/images/CONVEYOR-IDLERS/Idler4.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#conveyor2{
+    background-image: url('./assets/images/CONVEYOR-IDLERS/Idler5.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#conveyor3{
+    background-image: url('./assets/images/CONVEYOR-IDLERS/Idler6.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#conveyor4{
+    background-image: url('./assets/images/CONVEYOR-IDLERS/Idler7.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* screen panel pop-up images */
+
+#screen1{
+    background-image: url('./assets/images/SCREEN-PANELS/MW\ 2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#screen2{
+    background-image: url('./assets/images/SCREEN-PANELS/b7964a19-ec2c-4344-8451-7727ed5db749.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#screen3{
+    background-image: url('./assets/images/SCREEN-PANELS/b56d345f-8cca-4860-b1d6-8a4d0961b88e.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#screen4{
+    background-image: url('./assets/images/SCREEN-PANELS/b19acc5c-a30c-4f4e-b62a-1b0e6fdad0d3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* spray nozzles pop-up images */
+
+#spray1{
+    background-image: url('./assets/images/SPRAY-NOZZLES/45fee03c-a2ed-41ba-874a-2c11a250fdea.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#spray2{
+    background-image: url('./assets/images/SPRAY-NOZZLES/e569a66b-9bf2-4578-986e-40a8f8766a8f.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#spray3{
+    background-image: url('./assets/images/SPRAY-NOZZLES/45fee03c-a2ed-41ba-874a-2c11a250fdea.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#spray4{
+    background-image: url('./assets/images/SPRAY-NOZZLES/e569a66b-9bf2-4578-986e-40a8f8766a8f.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* hdpe pipes pop-up images */
+
+#pipe1{
+    background-image: url('./assets/images/HDP-PIPES/39f3ae7e-0812-4b16-8cc2-ebb4133f7371.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#pipe2{
+    background-image: url('./assets/images/HDP-PIPES/59b9b719-3199-4068-ac84-7b71a4598ed2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#pipe3{
+    background-image: url('./assets/images/HDP-PIPES/592fa640-d5aa-4ffa-937e-1446bc4b488c.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#pipe4{
+    background-image: url('./assets/images/HDP-PIPES/db8e8561-144c-4d11-9218-fd230d32233c.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* hdpe pipes pop-up images */
+
+#poly1{
+    background-image: url('./assets/images/POLYURETHANE-LINERS/PL2.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#poly2{
+    background-image: url('./assets/images/POLYURETHANE-LINERS/PL4.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#poly3{
+    background-image: url('./assets/images/POLYURETHANE-LINERS/PL2.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#poly4{
+    background-image: url('./assets/images/POLYURETHANE-LINERS/PL4.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
