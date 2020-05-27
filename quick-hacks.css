@@ -43,8 +43,13 @@
     margin-top: 7%;
 }
 
+.blue{
+  color:#0872B9;
+}
 
-
+.blue:hover{
+  color:#fff;
+}
 
 /* THE MAINCONTAINER HOLDS EVERYTHING */
 .maincontainer{

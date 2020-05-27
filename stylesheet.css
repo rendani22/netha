@@ -518,3 +518,19 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+
+/* service drop down menu */
+
+.service-drop-down{
+    display: none;
+    width: 15%;
+    position: absolute;
+    list-style: none;
+    margin-left: 63%;
+    z-index: 200;
+}
+
+.menu-show{
+    display: block;
+}
