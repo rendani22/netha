@@ -74,37 +74,53 @@
  }
 
  #fab-image1{
-    background-image: url('./assets/images/FABRICATION.png');
+    background-image: url('./assets/images/Fab-images/FAB10.JPG');
+    background-size: cover;
+    opacity: 0.95;
  }
 
  #fab-image2{
-    background-image: url('./assets/images/FABRICATION.png');
+    background-image: url('./assets/images/Fab-images/FAB9.JPG');
+    background-size: cover;
+    opacity: 0.95;
 }
 
 #fab-image3{
-    background-image: url('./assets/images/FABRICATION.png');
+    background-image: url('./assets/images/Fab-images/FAB7.JPG');
+    background-size: cover;
+    opacity: 0.95;
 }
 
 #fab-image4{
-    background-image: url('./assets/images/FABRICATION.png');
+    background-image: url('./assets/images/Fab-images/FAB15.JPG');
+    background-size: cover;
+    opacity: 0.95;
 }
 
 /* -------------------- field services section ----------------- */
 
 #field-image1{
-    background-image: url('./assets/images/FIELD.JPG');
+    background-image: url('./assets/images/Field-Services/Site1.JPG');
+    background-size: cover;
+    opacity: 0.95;
 }
 
 #field-image2{
-    background-image: url('./assets/images/FIELD.JPG');
+    background-image: url('./assets/images/Field-Services/Site2.JPG');
+    background-size: cover;
+    opacity: 0.95;
 }
 
 #field-image3{
-    background-image: url('./assets/images/FIELD.JPG');
+    background-image: url('./assets/images/Field-Services/Site6.png');
+    background-size: cover;
+    opacity: 0.95;
 }
 
 #field-image4{
-    background-image: url('./assets/images/FIELD.JPG');
+    background-image: url('./assets/images/Field-Services/Site8.JPG');
+    background-size: cover;
+    opacity: 0.95;
 }
 
 /* -------------------- field services section ----------------- */
@@ -231,7 +247,7 @@
     background-color: black;
     opacity: 0.35;
     width: 100%;
-    height: 100vh !important;
+    height: 100% !important;
     top: 0;
     bottom: 0;
     right: 0;
