@@ -55,12 +55,14 @@
 			<ul class="navbar-nav mr-auto mu-navbar-nav">
 				<li class="nav-item"><a href="index.html">Home</a></li>
 				<li class="nav-item active"><a href="about-us.html">About us</a></li>
-				<li class="nav-item blue"><a class="service-menu">Services</a></li>
-					<ul class="service-drop-down">
-						<li  class="nav-item"><a href="manufacturing.html">Manufacturing</a></li>
-						<li  class="nav-item"><a href="fabrication.html">Fabrication</a></li>
-						<li  class="nav-item"><a href="field.html">Field Services</a></li>
-					</ul>
+				<li class="nav-item blue dropdown ">
+					<a id="serviceDrop"  href="#" role="button"  data-toggle="dropdown" class="dropdown-toggle service-menu">Services</a>
+						<div class="dropdown-menu" aria-labelledby="serviceDrop">
+							<a href="manufacturing.html">Manufacturing</a>
+							<a href="fabrication.html">Fabrication</a>
+							<a href="field.html">Field Services</a>
+						</div>
+				</li>
 				<li class="nav-item "><a href="gallery.html">Gallery</a></li>
 				<li class="nav-item"><a href="contact.html">Contact us</a></li>
 			</ul>

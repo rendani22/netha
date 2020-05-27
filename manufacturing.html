@@ -57,12 +57,14 @@
 				<ul class="navbar-nav mr-auto mu-navbar-nav">
 					<li class="nav-item"><a href="index.html">Home</a></li>
 					<li class="nav-item"><a href="about-us.html">About us</a></li>
-					<li class="nav-item blue active"><a class="service-menu">Services</a></li>
-						<ul class="service-drop-down">
-							<li  class="nav-item"><a href="manufacturing.html">Manufacturing</a></li>
-							<li  class="nav-item"><a href="fabrication.html">Fabrication</a></li>
-							<li  class="nav-item"><a href="field.html">Field Services</a></li>
-						</ul>
+					<li class="nav-item blue dropdown active">
+						<a id="serviceDrop"  href="#" role="button"  data-toggle="dropdown" class="dropdown-toggle service-menu">Services</a>
+							<div class="dropdown-menu" aria-labelledby="serviceDrop">
+								<a href="manufacturing.html">Manufacturing</a>
+								<a href="fabrication.html">Fabrication</a>
+								<a href="field.html">Field Services</a>
+							</div>
+					</li>
 					<li class="nav-item"><a href="gallery.html">Gallery</a></li>
 					<li class="nav-item"><a href="contact.html">Contact us</a></li>
 				</ul>
@@ -106,7 +108,7 @@
 								<p class="home-card-title">HYDRO CYCLONE</p>
 								<hr class="man-card-title-line">
 							</div>
-							<div class="pop-up-description">
+							<div class="pop-up-description mu-imglink">
 								<p>Netha Engineering Technology manufactures a range of cyclones for classification and dense medium separation. 
 									We manufacture cyclones with sizes ranging from 15mm – 1500mm.
 								</p>
