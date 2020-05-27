@@ -21,12 +21,11 @@
 }
 
 .dropdown-menu a {
-    -webkit-transition: color 0.2s, font-size 0.2s;
-    transition: color 0.2s, font-size 0.2s;
+    transition:  font-size 0.1s !important;
   }
   
   .dropdown-menu a:hover {
-    font-size: 16px;
+    font-size: 15px;
   }
 
 
