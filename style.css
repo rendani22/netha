@@ -458,7 +458,7 @@ a:focus,
 
 .mu-navbar-nav .dropdown-menu {
 	left: auto;
-	right: 0;
+	right: -50px;
 }
 
 .mu-navbar-nav li .dropdown-menu a {
