@@ -7,6 +7,30 @@
     height: 450px;
 }
 
+.dropdown-menu{
+    background-color: #0872b9 !important;
+    width: 20%;
+}
+
+.dropdown-menu a{
+    color: white !important;
+}
+
+.dropdown-menu a:hover{
+    color: white !important;
+}
+
+.dropdown-menu a {
+    -webkit-transition: color 0.2s, font-size 0.2s;
+    transition: color 0.2s, font-size 0.2s;
+  }
+  
+  .dropdown-menu a:hover {
+    font-size: 16px;
+  }
+
+
+
 .home-card-icon{
     width: 100px;
     height: 100px;
