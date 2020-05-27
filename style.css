@@ -127,13 +127,8 @@ h6 {
 }
 
 img:not(#logo) {
-		border: none;
+	border: none;
 	max-width: 100%;
-	width: 80%;
-	background-color: white;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	margin-bottom: 25px;
-	
 }
 
 .footer-logo-img{
@@ -355,7 +350,7 @@ a:focus,
 	float: left;
 	width: 50%;
 }
-im
+
 .mu-navbar .mu-logo {
 	color: #0872B9;
 	font-weight: 600;
