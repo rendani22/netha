@@ -51,6 +51,11 @@
   color:#fff;
 }
 
+.image-space{
+  width: 97%;
+  margin: auto;
+}
+
 /* THE MAINCONTAINER HOLDS EVERYTHING */
 .maincontainer{
     position: relative;
