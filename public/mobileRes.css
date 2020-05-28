@@ -8,6 +8,10 @@
         margin-top: 10%;
     }
 
+    .mobile-no-margin-top{
+        margin-top: 0 !important;
+    }
+
     /* ---------- home page --------- */
 
     #mu-slider {
@@ -40,6 +44,10 @@
         height: unset;
         margin-bottom: 5%;
       }
+
+      .image-card{
+       margin-bottom: 10%;
+    }
 
     /* ------------- footer ------------ */
 
