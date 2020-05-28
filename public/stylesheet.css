@@ -24,9 +24,9 @@
 }
 
   
-  .dropdown-menu a:hover {
+.dropdown-menu a:hover {
     font-size: 16px;
-  }
+}
 
 
 
@@ -35,6 +35,10 @@
     height: 100px;
     /* background-color: #0872B9; */
     margin: auto;
+}
+
+.title-margin-top{
+    margin-top: 5%;
 }
 
 .home-card-title-container{
