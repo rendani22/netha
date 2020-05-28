@@ -2,7 +2,7 @@
 .home-card{
     border: solid #0872B9 2px;
     border-radius: 8px;
-    padding: 30px 30px 15px 30px;
+    padding: 20px 30px 15px 30px;
     width: 100% !important;
     height: 450px;
 }
@@ -44,7 +44,7 @@
 .home-card-title-container{
     text-align: center;
     margin: auto;
-    margin-top: 5% !important;
+    margin-top: 7% !important;
 }
 
 .home-card-title{
@@ -576,4 +576,22 @@
 
 .menu-show{
     display: block;
+}
+
+/* -------------- gallery --------------- */
+
+.filter{
+    color: #fbfcfc;
+    background-color: #0872B9;
+    min-width: 150px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 10px;
+}
+
+.filer-active{
+    color: #0872B9;
+    background-color: #fff;
+    font-weight: 600 !important;
+    border: 1px solid #0872B9;
 }
