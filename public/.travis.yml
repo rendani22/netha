@@ -1,0 +1,5 @@
+deploy:
+  provider: firebase
+  token:
+    secure: "1//030V8VBJe-M0tCgYIARAAGAMSNwF-L9Ir7zjTpKPOHMBEwoXWA4zmT-eD-Zc-plARfjnNibdsXhnqcVqbr33pcSJ815LcCr8AJEk"
+  message: "your message"
