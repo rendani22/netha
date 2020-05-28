@@ -1,5 +1,9 @@
-deploy:
-  provider: firebase
-  token:
-    secure: "1//030V8VBJe-M0tCgYIARAAGAMSNwF-L9Ir7zjTpKPOHMBEwoXWA4zmT-eD-Zc-plARfjnNibdsXhnqcVqbr33pcSJ815LcCr8AJEk"
-  message: "your message"
+language: node_js
+node_js:
+-"11.6.0"
+script:
+-echo "Deploying"
+install:
+-npm install -g firebase-tools
+after_success:
+-firebase deploy --token 1//030V8VBJe-M0tCgYIARAAGAMSNwF-L9Ir7zjTpKPOHMBEwoXWA4zmT-eD-Zc-plARfjnNibdsXhnqcVqbr33pcSJ815LcCr8AJEk
