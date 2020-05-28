@@ -3755,7 +3755,7 @@ a:focus,
   }
   
   .center{
-	text-align: center;
+	text-align: center !important;
   }
   
   .left-align{
