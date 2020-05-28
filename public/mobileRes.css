@@ -4,6 +4,18 @@
         margin-right: 0px;
     }
 
+    .mobile-title-margin-top{
+        margin-top: 10%;
+    }
+
+    .mobile-no-margin-top{
+        margin-top: 0 !important;
+    }
+
+    .mobile-text-justify{
+        text-align: justify;
+    }
+
     /* ---------- home page --------- */
 
     #mu-slider {
@@ -27,6 +39,38 @@
         padding: 0px 20px 15px 20px;
         height: 430px;
         margin-bottom: 5%;
+    }
+
+    /* ---------- about page --------- */
+    .about-card{
+        border: solid #0872B9 2px;
+        padding: 20px 30px;
+        height: unset;
+        margin-bottom: 5%;
+      }
+
+    .image-card{
+       margin-bottom: 10%;
+    }
+
+    /* ---------- fabrication page --------- */
+
+    .image-margin-bottom{
+        margin-bottom: 7%;
+    }
+
+    /* ---------- contact page --------- */
+
+    .section-margin-bottom{
+        margin-bottom: 10%;
+    }
+
+    .mobile-contact-title-margin-top{
+        margin-top: 15%;
+    }
+
+    .mu-contact-area{
+        padding: 60px 0;
     }
 
     /* ------------- footer ------------ */
