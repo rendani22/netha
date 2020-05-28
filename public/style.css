@@ -3260,10 +3260,6 @@ a:focus,
 		margin-bottom: 15px;
 	}
 
-	.mu-footer-top {
-		
-	}
-
 	.mu-single-footer {
 		margin: 15px 0;
 	}
@@ -3759,7 +3755,7 @@ a:focus,
   }
   
   .center{
-	text-align: center;
+	text-align: center !important;
   }
   
   .left-align{

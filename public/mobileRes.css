@@ -1,0 +1,52 @@
+@media screen and (min-width: 300px) and (max-width: 500px){
+    .row-margin{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    /* ---------- home page --------- */
+
+    #mu-slider {
+        height: 50vh !important;
+    }
+
+    .video-container{
+        margin-top: 20%;
+    }
+
+    .v-height{
+        /* height: 30vh; */
+        background-size: cover;
+    }
+
+    .mobile-hide{
+        display: none;
+    }
+
+    .home-card{
+        padding: 0px 20px 15px 20px;
+        height: 430px;
+        margin-bottom: 5%;
+    }
+
+    /* ------------- footer ------------ */
+
+    .mobile-left-align{
+        text-align: left !important;
+        padding-left: 0 !important;
+    }
+
+    .mu-footer-logo{
+        margin-bottom: 0;
+    }
+
+    .footer-logo-img{
+        padding-top: 0;
+        margin-left: 0;
+    }
+
+    .mu-footer-top {
+        padding: 0;
+        padding-left: 15px;
+    }
+}
