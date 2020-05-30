@@ -32,7 +32,7 @@
 	<!-- Google Fonts Open sans -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,800" rel="stylesheet">
  
- 
+
 	</head>
   <body>
 
@@ -99,10 +99,9 @@
 				</div>
 
 				<!-- Start manufacturing pop-up -->
-				<div class="">
-					<div class="pop-up-containers">
-					</div>
-					<div class="pop-up" id="hydro">
+				<div id= "popTest" class="pop-up mfp-hide">
+					
+					<div class=" " id="hydro">
 						<img class="cancels" src="./assets/images/x-circle.svg">
 
 						<div class="pop-up-conatiners-content">
@@ -156,10 +155,9 @@
 				<!-- End manufacturing pop-up -->
 
 				<!-- Start transfer chute pop-up -->
-				<div class="">
-					<div class="pop-up-containers">
-					</div>
-					<div class="pop-up" id="trans">
+				<div id="tras" class="pop-up mfp-hide">
+					
+					<div class="">
 						<img class="cancels" src="./assets/images/x-circle.svg">
 
 						<div class="pop-up-conatiners-content">
@@ -189,14 +187,14 @@
 							</div>
 						</div>
 					</div>
+				 </div>
 				</div>
 				<!-- End transfer chute pop-up -->
 
 				<!-- Start inter-stage pop-up -->
-				<div class="">
-					<div class="pop-up-containers">
-					</div>
-					<div class="pop-up" id="inter">
+				<div class="pop-up mfp-hide" id="inter">
+					
+					<div >
 						<img class="cancels" src="./assets/images/x-circle.svg">
 
 						<div class="pop-up-conatiners-content">
@@ -225,13 +223,13 @@
 						</div>
 					</div>
 				</div>
+			</div>
 				<!-- End inter-stage pop-up -->
 
 				<!-- Start conveyor idlers pop-up -->
-				<div class="">
-					<div class="pop-up-containers">
-					</div>
-					<div class="pop-up" id="conveyor">
+				<div  class="pop-up mfp-hide" id="conveyor">
+					
+					<div>
 						<img class="cancels" src="./assets/images/x-circle.svg">
 
 						<div class="pop-up-conatiners-content">
@@ -261,13 +259,13 @@
 						</div>
 					</div>
 				</div>
+			</div>
 				<!-- End conveyor idlers pop-up -->
 
 				<!-- Start screen panels pop-up -->
-				<div class="">
-					<div class="pop-up-containers">
-					</div>
-					<div class="pop-up" id="screen">
+				<div class="pop-up mfp-hide" id="screen">
+					
+					<div>
 						<img class="cancels" src="./assets/images/x-circle.svg">
 
 						<div class="pop-up-conatiners-content">
@@ -299,13 +297,13 @@
 						</div>
 					</div>
 				</div>
+			</div>
 				<!-- End screen panels pop-up -->
 
 				<!-- Start spray nozzles pop-up -->
-				<div class="">
-					<div class="pop-up-containers">
-					</div>
-					<div class="pop-up" id="spray">
+				<div class="pop-up mfp-hide" id="spray">
+					
+					<div >
 						<img class="cancels" src="./assets/images/x-circle.svg">
 
 						<div class="pop-up-conatiners-content">
@@ -336,13 +334,13 @@
 						</div>
 					</div>
 				</div>
+			</div>
 				<!-- End spray nozzles pop-up -->
 
 				<!-- Start hdpe pipes pop-up -->
-				<div class="">
-					<div class="pop-up-containers">
-					</div>
-					<div class="pop-up" id="pipe">
+				<div class="pop-up mfp-hide" id="pipe">
+					
+					<div >
 						<img class="cancels" src="./assets/images/x-circle.svg">
 
 						<div class="pop-up-conatiners-content">
@@ -373,13 +371,13 @@
 						</div>
 					</div>
 				</div>
+			</div>
 				<!-- End hdpe pipes pop-up -->
 
 				<!-- Start poly-u liners pop-up -->
-				<div class="">
-					<div class="pop-up-containers">
-					</div>
-					<div class="pop-up" id="poly">
+				<div class="pop-up mfp-hide" id="poly">
+					
+					<div >
 						<img class="cancels" src="./assets/images/x-circle.svg">
 
 						<div class="pop-up-conatiners-content">
@@ -410,6 +408,7 @@
 						</div>
 					</div>
 				</div>
+			</div>
 				<!-- End poly-u liners pop-up -->
 
 				<!-- Start manufacturing -->
@@ -427,7 +426,8 @@
 								</div>
 								<div class="layer-button">
 									<!-- <a class="mu-imglink card-btn btn-primary" href="assets/images/portfolio/img-1.jpg" title="SERVICE">View</a> -->
-									<button class="card-btn btn-primary" id="button1">View More</button>
+									<button class="open-popup-link card-btn btn-primary" href="#popTest" >View More</button>
+									<!-- <a  href="#popTest" class="open-popup-link">Show inline popup</a> -->
 								</div>
 							</div>
 							<div class="image-card-label">
@@ -448,7 +448,7 @@
 									<p>Our chutes are either polyurethane - which are prone to high impact...</p>
 								</div>
 								<div class="layer-button">
-									<button class="card-btn btn-primary" id="button2">View More</button>
+									<button class="open-popup-link card-btn btn-primary " href="#tras">View More</button>
 								</div>
 							</div>
 							<div class="image-card-label">
@@ -469,7 +469,7 @@
 									<p>Netha manufactures a range of inter-stage screens up to 1500mm...</p>
 								</div>
 								<div class="layer-button">
-									<button class="card-btn btn-primary" id="button3">View More</button>
+									<button class="open-popup-link card-btn btn-primary" href="#inter" >View More</button>
 								</div>
 							</div>
 							<div class="image-card-label">
@@ -490,7 +490,7 @@
 									<p>Netha manufactures a range of HDPE, Polyurethane and Steel...</p>
 								</div>
 								<div class="layer-button">
-									<button class="card-btn btn-primary" id="button4">View More</button>
+									<button class="open-popup-link card-btn btn-primary" href="#conveyor">View More</button>
 								</div>
 							</div>
 							<div class="image-card-label">
@@ -513,7 +513,7 @@
 									<p>We supply a comprehensive range of high quality injection....</p>
 								</div>
 								<div class="layer-button">
-									<button class="card-btn btn-primary" id="button5">View More</button>
+									<button class="open-popup-link card-btn btn-primary" href="#screen">View More</button>
 								</div>
 							</div>
 							<div class="image-card-label">
@@ -534,7 +534,7 @@
 									<p>Our standard polyurethane spray nozzles are characterized by...</p>
 								</div>
 								<div class="layer-button">
-									<button class="card-btn btn-primary" id="button6">View More</button>
+									<button class="open-popup-link card-btn btn-primary" href="#spray">View More</button>
 								</div>
 							</div>
 							<div class="image-card-label">
@@ -555,7 +555,7 @@
 									<p>Our steel pipes have been designed for corrosive and erosive slurries...</p>
 								</div>
 								<div class="layer-button">
-									<button class="card-btn btn-primary" id="button7">View More</button>
+									<button class="open-popup-link card-btn btn-primary" href="#pipe">View More</button>
 								</div>
 							</div>
 							<div class="image-card-label">
@@ -576,7 +576,7 @@
 									<p>Our liners are manufactured in various shore thicknesses...</p>
 								</div>
 								<div class="layer-button">
-									<button class="card-btn btn-primary" id="button8">View More</button>
+									<button class="open-popup-link card-btn btn-primary" href="#poly">View More</button>
 								</div>
 							</div>
 							<div class="image-card-label">
@@ -762,5 +762,14 @@
 			$("#videoId").replaceWith($('<video id="videoId" src="./assets/video/logo_1.mp4" />'));
 			} 
 	</script>
+
+<script>
+	$('.open-popup-link').magnificPopup({
+ type:'inline',
+ midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+});
+
+
+</script>
   </body>
 </html>
