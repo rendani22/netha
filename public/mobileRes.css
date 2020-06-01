@@ -19,7 +19,7 @@
     /* ---------- home page --------- */
 
     #mu-slider {
-        height: 50vh !important;
+        height: 37vh !important;
     }
 
     .video-container{
@@ -111,11 +111,51 @@
     .myBtnContainer{
         margin: auto;
     }
+
+    /* ------------- pop-up ------------ */
+
+    .pop-up-image-margin-bottom{
+        margin-bottom: 7%;
+    }
+
+    .pop-up{
+        width: 95%;
+        padding: 15px;
+        margin-top: -17%;
+    }
+
+    .cancels{
+        margin-right: 5px;
+        margin-top: 0px;
+    }
+
+    /* ------------- manufacturing ------------ */
+    .card-layer{
+        position: absolute;
+        top: 0;
+        width: 93%;
+        margin: auto;
+        background-color: black;
+        opacity: 0.88;
+        display: none;
+    } 
+
+    .layer-content-container{
+        width: 100%;
+    }
+
+    .layer-button{
+        width: 40%;
+    }
 }
 
 
 @media screen and (min-width: 300px) and (max-width: 399px){
     .small-device-margin-left{
         margin-left: 40px !important;
+    }
+
+    .card-layer{
+        width: 92%;
     }
 }
