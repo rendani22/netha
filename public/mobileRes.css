@@ -93,4 +93,29 @@
         padding: 0;
         padding-left: 15px;
     }
+
+    /* ------------- gallery ------------ */
+
+    .tab-flex{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .filter{
+        font-size: 14px;
+        padding: 10px;
+        margin-left: 10px;
+        margin-bottom: 15px;
+    }
+
+    .myBtnContainer{
+        margin: auto;
+    }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 399px){
+    .small-device-margin-left{
+        margin-left: 40px !important;
+    }
 }
