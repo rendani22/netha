@@ -296,7 +296,7 @@
     background-color: #fbfcfc;
     margin: auto;
     z-index: 250;
-    display: none;
+    display: relative;
     padding: 30px;
     margin-top: -22%;
     border-top: 5px solid #4391C6;
@@ -355,9 +355,13 @@
     width: 100%;
 }
 
-#trans, #inter, #conveyor, #screen, #spray, #pipe, #poly{
+.pop-up{
     margin-top: -10%;
     padding-bottom: 50px;
+}
+
+#popTest{
+    margin-top: -6% !important; 
 }
 
 .image-border{
