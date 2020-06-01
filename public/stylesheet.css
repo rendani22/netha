@@ -360,6 +360,10 @@
     padding-bottom: 50px;
 }
 
+#popTest{
+    margin-top: -6% !important; 
+}
+
 .image-border{
     border: 1px solid #7e7e7e;
 }
