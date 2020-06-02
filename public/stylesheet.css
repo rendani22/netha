@@ -455,19 +455,19 @@
 }
 
 #conveyor2{
-    background-image: url('./assets/images/Manufacturing/4. Conveyor Idlers/Idler 2.jpg');
+    background-image: url('./assets/images/idler2.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #conveyor3{
-    background-image: url('./assets/images/Manufacturing/4. Conveyor Idlers/Idler 3.jpg');
+    background-image: url('./assets/images/idler3.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #conveyor4{
-    background-image: url('./assets/images/Manufacturing/4. Conveyor Idlers/Idler 4.jpg');
+    background-image: url('./assets/images/idler4.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
