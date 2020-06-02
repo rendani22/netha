@@ -228,7 +228,7 @@
 }
 
 #man-img3{
-    background-image: url('./assets/images/Manufacturing/3. Inter-Stage Screens/Inter-stage2.PNG');
+    background-image: url('./assets/images/Inter-stage2.png');
     background-size: cover;
     opacity: 0.9;
     background-repeat: no-repeat;
@@ -423,25 +423,25 @@
 /* inter-stage screens pop-up images */
 
 #inter1{
-    background-image: url('./assets/images/Manufacturing/3. Inter-Stage Screens/Inter-stage2.PNG');
+    background-image: url('./assets/images/Inter-stage2.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #inter2{
-    background-image: url('./assets/images/Manufacturing/3. Inter-Stage Screens/Inter-stage9.PNG');
+    background-image: url('./assets/images/Inter-stage9.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #inter3{
-    background-image: url('./assets/images/Manufacturing/3. Inter-Stage Screens/Inter-stage5.PNG');
+    background-image: url('./assets/images/Inter-stage5.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #inter4{
-    background-image: url('./assets/images/Manufacturing/3. Inter-Stage Screens/Inter-stage10.PNG');
+    background-image: url('./assets/images/Inter-stage10.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
