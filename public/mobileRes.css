@@ -16,6 +16,9 @@
         text-align: justify;
     }
 
+    .menu-right{
+        margin-left: auto;
+    }
     /* ---------- home page --------- */
 
     #mu-slider {
