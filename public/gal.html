@@ -109,15 +109,11 @@
                                 <!-- Start manufacturing section -->
 								<div class="animation all 1">
 
-									<div class="mu-title title-left 1 all animation">
 										<h2 class="">Manufacturing</h2>
-                                    </div>
 
                                     <!-- Start Steel Ceramic Lined Cyclones -->
-									<div class="gallery-card-title-container animation all 1">
                                         <p class="gallery-card-title">Steel Ceramic Lined Cyclones</p>
                                         <hr class="gallery-title-line">
-                                    </div>
                                     
                                     <div class="row animation all 1">
                                         <div class="col-md-3 gallery-image-parent 1">
@@ -499,14 +495,14 @@
 
 
                                 <!-- Start Fabrication section -->
-                                <div>
+                                <div id="gallary">
                                     <div class="mu-title title-left no-float 2 animation all">
                                         <h2 class="">Fabrication</h2>
                                     </div>
                                 
                                     <div class="row animation all 2">
-                                        <div class="col-md-3 gallery-image-parent">
-                                            <div class="gallery-image-holder card-shadow animation 1" id="img53">
+                                        <div class="col-md-3 gallery-image-parent 2">
+                                            <div class="gallery-image-holder card-shadow animation 2" id="img53">
                                             </div>
                                         </div>
 
@@ -719,6 +715,8 @@ $("#gallery").fadeTo(100, 0.1);
 $("#gallery div").not("."+selectedClass).fadeOut().removeClass('animation');
 setTimeout(function() {
 $("."+selectedClass).fadeIn().addClass('animation');
+console.log($("."+selectedClass));
+console.log($("#gallery div").not("."+selectedClass));
 $("#gallery").fadeTo(300, 1);
 }, 300);
 });
