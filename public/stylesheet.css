@@ -611,11 +611,11 @@
 }
 
 .height{
-    height: 240px !important;
+    height: 240px;
 }
 
 .width{
-    width: 106% !important;
+    width: 106%;
 }
 
 /* -------------- New gallery --------------- */
