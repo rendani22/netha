@@ -153,11 +153,11 @@
 
     .gallery-image-parent{
         height: 200px;
-        margin-bottom: 20%;
+        margin-bottom: 5%;
     }
 
     .width{
-        width: 240px !important;
+        width: 250px !important;
     }
 }
 
