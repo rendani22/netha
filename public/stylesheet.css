@@ -139,7 +139,7 @@
 }
 
 #field-image3{
-    background-image: url('./assets/images/Field-Services/Site6.png');
+    background-image: url('./assets/images/field2.JPG');
     background-size: cover;
     opacity: 0.95;
 }
@@ -377,19 +377,19 @@
 }
 
 #hydro2{
-    background-image: url('./assets/images/Manufacturing/1. Hydro-cyclones/Cast Iron Cyclones/CastIron17.png');
+    background-image: url('./assets/images/CastIron2.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 #hydro3{
-    background-image: url('./assets/images/Manufacturing/1. Hydro-cyclones/Polyurethane Cyclones/PU3.png');
+    background-image: url('./assets/images/PU2.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 #hydro4{
-    background-image: url('./assets/images/Manufacturing/1. Hydro-cyclones/Polyurethane Cyclones/PU4.png');
+    background-image: url('./assets/images/PU6.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
