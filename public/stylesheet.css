@@ -101,25 +101,25 @@
  }
 
  #fab-image1{
-    background-image: url('./assets/images/fabrication/Fab1.png');
+    background-image: url('./assets/images/Fab1.png');
     background-size: contain;
     opacity: 0.95;
  }
 
  #fab-image2{
-    background-image: url('./assets/images/fabrication/FAB4.png');
+    background-image: url('./assets/images/FAB5.png');
     background-size: contain;
     opacity: 0.95;
 }
 
 #fab-image3{
-    background-image: url('./assets/images/fabrication/FAB12.png');
+    background-image: url('./assets/images/FAB4.png');
     background-size: contain;
     opacity: 0.95;
 }
 
 #fab-image4{
-    background-image: url('./assets/images/fabrication/FAB13.png');
+    background-image: url('./assets/images/FAB10.png');
     background-size: contain;
     opacity: 0.95;
 }
@@ -608,4 +608,59 @@
     background-color: #fff;
     font-weight: 600 !important;
     border: 1px solid #0872B9;
+}
+
+/* -------------- New gallery --------------- */
+
+.tab-flex{
+    margin-top: 5%;
+}
+
+.gallery-image-container{
+    margin-top: 7%;
+}
+
+.title-left{
+    text-align: left !important;
+}
+
+.gallery-card-title-container{
+    text-align: left;
+    display: inline-grid;
+    margin-bottom: 2%;
+}
+
+.gallery-card-title{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    /* color: #0872B9; */
+}
+
+.gallery-title-line{
+    width: 40%;
+    background-color: #0872B9;
+    height: 2px;
+    margin-top: -1%;
+    border: none;
+}
+
+.gallery-image-parent{
+    height: 200px;
+    margin-bottom: 5%;
+}
+
+.gallery-image-holder{
+    height: 190px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.cover{
+    background-size: cover !important;
+}
+
+.no-float{
+    float: none !important;
 }
