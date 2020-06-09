@@ -150,6 +150,15 @@
     .layer-button{
         width: 40%;
     }
+
+    .gallery-image-parent{
+        height: 200px;
+        margin-bottom: 20%;
+    }
+
+    .width{
+        width: 240px !important;
+    }
 }
 
 
