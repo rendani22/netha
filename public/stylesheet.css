@@ -610,6 +610,14 @@
     border: 1px solid #0872B9;
 }
 
+.height{
+    height: 240px !important;
+}
+
+.width{
+    width: 106% !important;
+}
+
 /* -------------- New gallery --------------- */
 
 .tab-flex{
