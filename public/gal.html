@@ -107,32 +107,32 @@
 
 
                                 <!-- Start manufacturing section -->
-								<div class="animation all 1">
-
+								<div id="test" class="animation all 1">
 										<h2 class="">Manufacturing</h2>
 
                                     <!-- Start Steel Ceramic Lined Cyclones -->
+                                    <div class="gallery-card-title-container">
                                         <p class="gallery-card-title">Steel Ceramic Lined Cyclones</p>
                                         <hr class="gallery-title-line">
-                                    
-                                    <div class="row animation all 1">
-                                        <div class="col-md-3 gallery-image-parent 1">
-                                            <div class="gallery-image-holder card-shadow animation 1 all" id="img1">
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-3 gallery-image-parent">
+                                            <div class="gallery-image-holder card-shadow" id="img1">
                                             </div>
                                         </div>
 
-                                        <div class="col-md-3 gallery-image-parent 1">
-                                            <div class="gallery-image-holder card-shadow animation 1 all" id="img2">
+                                        <div class="col-md-3 gallery-image-parent ">
+                                            <div class="gallery-image-holder card-shadow" id="img2">
                                             </div>
                                         </div>
 
-                                        <div class="col-md-3 gallery-image-parent 1">
-                                            <div class="gallery-image-holder card-shadow animation 1 all" id="img3">
+                                        <div class="col-md-3 gallery-image-parent ">
+                                            <div class="gallery-image-holder card-shadow" id="img3">
                                             </div>
                                         </div>
 
-                                        <div class="col-md-3 gallery-image-parent 1">
-                                            <div class="gallery-image-holder cover card-shadow animation 1 all" id="img4">
+                                        <div class="col-md-3 gallery-image-parent ">
+                                            <div class="gallery-image-holder cover card-shadow" id="img4">
                                             </div>
                                         </div>
                                     </div>
@@ -144,7 +144,7 @@
                                         <hr class="gallery-title-line">
                                     </div>
                                     
-                                    <div class="row 1">
+                                    <div class="row">
                                         <div class="col-md-3 gallery-image-parent">
                                             <div class="gallery-image-holder card-shadow" id="img5">
                                             </div>
@@ -495,7 +495,8 @@
 
 
                                 <!-- Start Fabrication section -->
-                                <div id="gallary">
+                                <div id="gallery">
+                                <div class="animation all 2">
                                     <div class="mu-title title-left no-float 2 animation all">
                                         <h2 class="">Fabrication</h2>
                                     </div>
@@ -521,14 +522,16 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- End Steel Ceramic Lined Cyclones -->    
+                                    <!-- End Steel Ceramic Lined Cyclones -->   
+                                </div>
                                 </div>
                                 <!-- End Fabrication section -->
 
 
 
                                 <!-- Start Field Services section -->
-                                <div>
+                                <div id="gallery">
+                                    <div class="animation all 3" >
                                     <div class="mu-title title-left no-float 3">
                                         <h2 class="">Field Services</h2>
                                     </div>
@@ -557,6 +560,7 @@
                                     <!-- End Steel Ceramic Lined Cyclones -->    
                                 </div>
                                 <!-- End Field Services section -->
+                            </div>
                         </div>
                         <!-- End main gallery container -->
 					</div>
@@ -712,11 +716,9 @@ var selectedClass = "";
 $(".filter").click(function(){
 selectedClass = $(this).attr("data-rel");
 $("#gallery").fadeTo(100, 0.1);
-$("#gallery div").not("."+selectedClass).fadeOut().removeClass('animation');
+$("#gallery .animation.all").not("."+selectedClass).fadeOut().removeClass('animation');
 setTimeout(function() {
 $("."+selectedClass).fadeIn().addClass('animation');
-console.log($("."+selectedClass));
-console.log($("#gallery div").not("."+selectedClass));
 $("#gallery").fadeTo(300, 1);
 }, 300);
 });
