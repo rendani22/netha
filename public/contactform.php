@@ -2,22 +2,30 @@
 if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "omphile@lebonemedia.co.za";
-    $email_subject = "info@netha.co.za";
+    $email_to = "sales@netha-tec.co.za";
+    $email_subject = "Netha Engineering Technology Contact Us";
  
-    
+    function died($error) {
+        // your error code can go here
+        echo "We are very sorry, but there were error(s) found with the form you submitted. ";
+        echo "These errors appear below.<br /><br />";
+        echo $error."<br /><br />";
+        echo "Please go back and fix these errors.<br /><br />";
+        die();
+    }
+ 
  
     // validation expected data exists
     if(!isset($_POST['name']) ||
-        !isset($_POST['subject']) ||
         !isset($_POST['email']) ||
         !isset($_POST['number']) ||
         !isset($_POST['message'])) {
         died('We are sorry, but there appears to be a problem with the form you submitted.');       
     }
  
+     
+ 
     $name = $_POST['name']; // required
-    $subject = $_POST['subject']; // required
     $email_from = $_POST['email']; // required
     $number = $_POST['number']; // not required
     $message = $_POST['message']; // required
@@ -35,9 +43,6 @@ if(isset($_POST['email'])) {
     $error_message .= 'The First Name you entered does not appear to be valid.<br />';
   }
  
-  if(!preg_match($string_exp,$subject)) {
-    $error_message .= 'The Last Name you entered does not appear to be valid.<br />';
-  }
  
   if(strlen($message) < 2) {
     $error_message .= 'The Comments you entered do not appear to be valid.<br />';
@@ -58,10 +63,10 @@ if(isset($_POST['email'])) {
      
  
     $email_message .= "Name: ".clean_string($name)."\n";
-    $email_message .= "Last Name: ".clean_string($subject)."\n";
-    $email_message .= "Email: ".clean_string($email_from)."\n";
+   
+    $email_message .= "Email:".clean_string($email_from)."\n";
     $email_message .= "Telephone: ".clean_string($number)."\n";
-    $email_message .= "message: ".clean_string($message)."\n";
+    $email_message .= "Comments: ".clean_string($message)."\n";
  
 // create email headers
 $headers = 'From: '.$email_from."\r\n".
@@ -69,11 +74,9 @@ $headers = 'From: '.$email_from."\r\n".
 'X-Mailer: PHP/' . phpversion();
 @mail($email_to, $email_subject, $email_message, $headers);  
 
-//reCAPTCHA validation
-
-
 ?>
  
+
  
 Thank you for contacting us. We will be in touch with you very soon.
  
